@@ -1,0 +1,15 @@
+---
+- name: getting physical server's resources 
+  hosts: all 
+  gather_facts: true 
+  tasks: 
+  - name: Arrange memory for GBs 
+    set_fact: 
+      ansible_memory_gb: "{{ ansible_memory_mb['nocache']['free'] / 1000|int }}"
+
+  - name: query server for available memory
+    debug: var=ansible_memory_gb
+
+  - name: query server for available cpus
+    debug: var=ansible_processor_vcpus
+

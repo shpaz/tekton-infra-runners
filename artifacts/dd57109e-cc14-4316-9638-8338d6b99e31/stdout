@@ -1,0 +1,23 @@
+Identity added: /runner/artifacts/dd57109e-cc14-4316-9638-8338d6b99e31/ssh_key_data (root@kratos)
+
+PLAY [getting physical server's resources] *************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [kratos][0m
+
+TASK [Arrange memory for GBs] **************************************************
+[0;32mok: [kratos][0m
+
+TASK [query server for available memory] ***************************************
+[0;32mok: [kratos] => {[0m
+[0;32m    "ansible_memory_gb": "31.29"[0m
+[0;32m}[0m
+
+TASK [query server for available cpus] *****************************************
+[0;32mok: [kratos] => {[0m
+[0;32m    "ansible_processor_vcpus": 16[0m
+[0;32m}[0m
+
+PLAY RECAP *********************************************************************
+[0;32mkratos[0m                     : [0;32mok=4   [0m changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
