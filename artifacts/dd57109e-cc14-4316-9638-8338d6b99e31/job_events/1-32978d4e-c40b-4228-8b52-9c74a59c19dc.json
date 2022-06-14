@@ -1,1 +1,0 @@
-{"event": "verbose", "uuid": "32978d4e-c40b-4228-8b52-9c74a59c19dc", "counter": 1, "stdout": "Identity added: /runner/artifacts/dd57109e-cc14-4316-9638-8338d6b99e31/ssh_key_data (root@kratos)", "start_line": 0, "end_line": 1, "runner_ident": "dd57109e-cc14-4316-9638-8338d6b99e31", "created": "2022-06-14T12:30:23.804906"}
